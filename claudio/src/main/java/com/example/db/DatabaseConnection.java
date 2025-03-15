@@ -5,10 +5,9 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 
 public class DatabaseConnection {
-    private static final String URL = "jdbc:postgresql://localhost:5432/test1database";
-    private static final String USER = "derickshi"; // Replace with your username
-    private static final String PASSWORD = "231795postgress"; // Replace with your password
-
+    private static final String URL = 
+    private static final String USER = 
+    private static final String PASSWORD = 
     static {
         try {
             Class.forName("org.postgresql.Driver");
